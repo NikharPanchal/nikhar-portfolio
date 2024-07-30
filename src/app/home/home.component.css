@@ -1,0 +1,54 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .row {
+    flex: 1; /* Makes rows take up equal space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .row1 {
+    padding: 10px;
+    background-color: rgb(48, 66, 108);; 
+  }
+  
+  .row2 {
+    background-color: #e74c3c; /* Red background */
+  }
+
+  .card {
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px  rgb(48, 66, 108);;
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+  }
+
+  .card-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%; 
+  }
+  
+  .card-title{
+    font-size: 25px;
+    color: aliceblue;
+  }
+
+  .card-details{
+    font-size: 15px;
+    color: aliceblue;
+  }
+
+  .card-social img {
+    width: 30px; /* Adjust icon size as needed */
+    height: 30px;
+    padding: 5px;
+  }

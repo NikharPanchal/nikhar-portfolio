@@ -1,0 +1,17 @@
+.toolbar-title {
+    font-size: 1.2em; /* Adjust as needed */
+    color: aliceblue;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+.header{
+ background-color: rgb(48, 66, 108);
+ filter:drop-shadow(0px 0px 20px rgb(48, 66, 108));
+}
+
+.text{
+    color: aliceblue;
+}
