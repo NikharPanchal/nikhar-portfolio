@@ -9,8 +9,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSortModule } from '@angular/material/sort';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -26,8 +26,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatSlideToggleModule,
     MatListModule,
     MatInputModule,
-    RouterModule,
-    MatButtonModule
+    MatButtonModule,
+    RouterModule
   ],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']

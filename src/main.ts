@@ -1,12 +1,9 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-
-// if (environment.production) {
-//   enableProdMode();
-// }
+import { routes } from './app/app.routes';
+import { provideRouter } from '@angular/router';
 
 bootstrapApplication(AppComponent, {
-  providers: [BrowserAnimationsModule, provideAnimationsAsync()]
-});
+  providers: [provideRouter(routes)]
+})
+.catch(err => console.error(err));
