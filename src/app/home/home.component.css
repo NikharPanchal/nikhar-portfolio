@@ -18,7 +18,6 @@
 .row1 {
   padding: 10px;
   background-color: rgb(48, 66, 108);
-  ;
 }
 
 .row2 {
@@ -133,4 +132,33 @@
 .logo img {
   max-width: 50px;
   max-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .row2 {
+    padding: 20px;
+  }
+
+  .card-area {
+    padding: 20px;
+  }
+
+  .skill {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill {
+    width: 100%;
+  }
+
+  .card-area {
+    padding: 10px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
 }

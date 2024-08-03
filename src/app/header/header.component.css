@@ -1,17 +1,44 @@
-.toolbar-title {
-    font-size: 1.2em; /* Adjust as needed */
-    color: aliceblue;
-  }
-  
-  .spacer {
-    flex: 1 1 auto;
-  }
-  
-.header{
- background-color: rgb(48, 66, 108);
- filter:drop-shadow(0px 0px 20px rgb(48, 66, 108));
+.header {
+  background-color: rgb(48, 66, 108);
+  filter: drop-shadow(0px 0px 20px rgb(48, 66, 108));
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.text{
-    color: aliceblue;
+.toolbar-title {
+  font-size: 1.2em;
+  color: aliceblue;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.text {
+  color: aliceblue;
+}
+
+.toolbar-button {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .toolbar-button {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+
+.example-sidenav {
+  width: 250px;
+}
+
+.example-container {
+  height: 100%;
 }
