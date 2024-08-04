@@ -1,8 +1,10 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <div class="container">
     <div class="row pt-5">
         <div class="col-md-6">
+            <div>
+                <p><em><i class="fas fa-envelope"></i> panchalnikhar4920&#64;gmail.com</em></p>
+                <p><em><i class="fas fa-phone"></i> +919099227667</em></p>
+            </div>
             <div class="location-area">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.2708719282978!2d72.64792607477102!3d23.050528915285348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1722701818407!5m2!1sen!2sin"
@@ -25,13 +27,6 @@
                     <label for="firstname">First Name</label>
                     <input type="text" formControlName="fname"
                         [ngClass]=" {'is-invalid':subimitted && registerform.controls['fname'].errors}" name="firstname"
-                        class="form-control" class="form-control">
-                </div>
-
-                <div class="form-group mt-3">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" [formControlName]="'lname'"
-                        [ngClass]="{'is-invalid':subimitted && registerform.controls['lname'].errors}" name="lastname"
                         class="form-control" class="form-control">
                 </div>
 

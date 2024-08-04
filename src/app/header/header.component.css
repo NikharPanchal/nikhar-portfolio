@@ -1,4 +1,4 @@
-.header {
+/* .header {
   background-color: rgb(48, 66, 108);
   filter: drop-shadow(0px 0px 20px rgb(48, 66, 108));
   display: flex;
@@ -41,4 +41,24 @@
 
 .example-container {
   height: 100%;
+} */
+.navbar .navbar-brand {
+  font-size: 30px;
+  color: aliceblue;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+  
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  color: aliceblue;
+}
+.fa-bars {
+  font-size: 30px;
+}
+.sticky-top{
+  background-color: rgb(48, 66, 108);
+  filter: drop-shadow(0px 0px 20px rgb(48, 66, 108));
 }

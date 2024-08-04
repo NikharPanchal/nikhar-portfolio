@@ -1,8 +1,24 @@
-<mat-toolbar color="primary" class="header">
-  <span class="toolbar-title">Nikhar Panchal</span>
-  <span class="spacer"></span>
-  <button mat-button [routerLink]="['/home']"><span class="text">Home</span></button>
-  <button mat-button [routerLink]="['/experience']"><span class="text">Experience</span></button>
-  <button mat-button [routerLink]="['/projects']"><span class="text">Projects</span></button>
-  <button mat-button [routerLink]="['/contact']"><span class="text">Contact</span></button>
-</mat-toolbar>
+<nav class="navbar sticky-top navbar-expand-lg">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto w-100 justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/experience']">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/projects']">Projects</a>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

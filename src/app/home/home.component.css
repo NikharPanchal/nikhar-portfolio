@@ -7,7 +7,6 @@
 
 .row {
   flex: 1;
-  /* Makes rows take up equal space */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,15 +23,12 @@
   background-color: #f1f1f1;
 }
 
-.card {
-  color: black;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgb(48, 66, 108);
-  ;
-  text-align: center;
-  width: 300px;
-  /* Adjust width as needed */
+.custom-card {
+  padding: 10px !important; 
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgb(48, 66, 108) !important;
+  text-align: center !important;
+  width: 300px !important;
 }
 
 .card-image {
@@ -66,28 +62,6 @@
   justify-content: center;
   gap: 20px;
 }
-
-/* .label-img {
-    position: absolute;
-    background-color: #ffffff;
-    color: #000000; 
-    padding: 2% 4%; 
-    font-size: 2%; 
-    height: auto;
-    width: auto;
-    max-width: 30%; 
-    border-radius: 10px; 
-    transform: translate(-50%, -50%); 
-    top: 5%; 
-    left: 50%; 
-  }
-  .label-img img {
-    box-shadow: 0 2% 4% 0 rgba(0, 0, 0, 0.3); 
-    width: 20px; 
-    height: auto;
-    vertical-align: middle;
-    margin-right: 5px;
-  } */
 .skill {
   position: relative;
   width: calc(33.33% - 20px);
